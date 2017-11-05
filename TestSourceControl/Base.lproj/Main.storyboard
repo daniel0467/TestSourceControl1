@@ -35,7 +35,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xNO-E3-pQ9">
                                 <rect key="frame" x="41" y="160" width="249" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Exit"/>
+                                <state key="normal" title="Plus 1"/>
                                 <connections>
                                     <action selector="Exit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rQA-Ll-obY"/>
                                 </connections>
