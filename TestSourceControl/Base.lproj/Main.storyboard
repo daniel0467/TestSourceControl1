@@ -40,8 +40,16 @@
                                     <action selector="Exit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rQA-Ll-obY"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frh-wQ-Xos">
+                                <rect key="frame" x="26" y="198" width="278" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Minus 1"/>
+                                <connections>
+                                    <action selector="Minus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CeE-oA-qPx"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MAN-XP-U9I">
-                                <rect key="frame" x="26" y="209" width="278" height="30"/>
+                                <rect key="frame" x="26" y="262" width="278" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Reset"/>
                                 <connections>

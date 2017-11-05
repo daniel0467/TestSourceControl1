@@ -19,10 +19,16 @@ class ViewController: UIViewController {
         Textbox.text = String(counter)
     }
     
+    @IBAction func Minus(_ sender: UIButton) {
+        counter -= 1
+        Textbox.text = String(counter)
+    }
+    
     @IBAction func Reset(_ sender: UIButton) {
         counter = 0
         Textbox.text = String(counter)
     }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
