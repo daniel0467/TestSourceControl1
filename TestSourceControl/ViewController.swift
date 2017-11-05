@@ -19,6 +19,11 @@ class ViewController: UIViewController {
         Textbox.text = String(counter)
     }
     
+    @IBAction func Reset(_ sender: UIButton) {
+        counter = 0
+        Textbox.text = String(counter)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
