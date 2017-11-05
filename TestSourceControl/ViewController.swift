@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var Textbox: UITextField!
+    @IBOutlet weak var Label: UILabel!
+    @IBAction func Exit(_ sender: UIButton) {
+        Textbox.text = "Exit gedrückt"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
